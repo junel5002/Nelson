@@ -1,0 +1,344 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+h1{
+    text-shadow: 3px 3px 5px;
+   
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(121, 73, 11);
+    width: 100%;
+    
+    
+    
+}
+
+
+
+
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+body{
+    background: linear-gradient(#ffdad5, #fff7f9);
+   
+    background-size: cover;
+    background-position: center;
+    font-family: 'Outfit';
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+    color: #666;
+    border: none; 
+    outline: none;
+}
+
+.contact-left textarea{
+    height: 140px;
+    border-radius: 20px;
+    padding-top: 15px;
+
+}
+
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+}
+
+
+.contact-left button img{
+    height: 15px;
+}
+
+
+.contact-right img{
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+.picture{
+    width: 200px;
+    height: 300px;
+    padding: 2%;
+    
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.picture img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    
+    border-radius: 100%;
+    
+    
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+    
+    
+}
+
+nav{
+    background: orange;
+    height: 80px;
+    width: 100%;
+}
+
+
+label.Hall{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+
+.btn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor: pointer;
+    display: block;
+}
+
+#check{
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+
+
+label.Hall{
+    font-size: 30px;
+        padding-left: 50px;
+
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        color: whitesmoke;
+
+    }
+
+
+    
+    
+    ul{
+        position:relative;
+        width: 100%;
+        top: 0px;
+        left: -100%;
+        text-align: center;
+        background: rgb(246, 222, 157);
+    }
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 15px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+        
+       
+
+    }
+
+    a.active, a:hover{
+        background: none;
+        color: orange;
+
+    }
+
+    #check:checked ~ ul{
+        left: 20px;
+        transition: .7s;
+        
+    
+        
+
+    }
+
+    .contact-inputs{
+        width: 80vw;
+
+    }
+    .contact-right{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
